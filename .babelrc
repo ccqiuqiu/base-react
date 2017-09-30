@@ -1,0 +1,27 @@
+{
+    "presets": [
+        ["env", {"modules": false}],
+        "stage-1",
+        "react"
+    ],
+    // "comments": false,
+    "plugins": ["transform-runtime", "transform-decorators-legacy", ["import", { "style": "css", "libraryName": "antd-mobile" }]],
+    "env": {
+        "production": {
+            "presets": ["react-optimize"]
+        },
+        "development": {
+            "plugins": ["react-hot-loader/babel"]
+        },
+        "test": {
+            "presets": ["env", "stage-1"],
+            "plugins": [
+                ["module-resolver", {
+                    "alias": {
+                        "src": "./src"
+                    }
+                }]
+            ]
+        }
+    }
+}

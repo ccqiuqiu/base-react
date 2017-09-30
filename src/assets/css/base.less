@@ -1,0 +1,35 @@
+*{padding:0;margin: 0;}
+a, abbr, address, b, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, samp, small, span, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, ul, var{
+  /*max-height:1000rem; !*解决X5内核浏览器有些字体被莫名放大的问题*!*/
+}
+img {display: block; max-width: 100%;}
+input{outline: none;}
+li{list-style: none;}
+html{
+  touch-action: manipulation;
+}
+.App{
+  height: 100vh;
+}
+.content{
+  padding: 0.16rem;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.loading{
+  height: 3px;
+  background-color: #32a3f3;
+  position: absolute;
+}
+/* 以下是覆盖组件库的样式 */
+.App{
+  .am-tab-bar-bar{
+    position: static !important;
+  }
+  .am-card{
+    margin-bottom: 0.1rem;
+  }
+  .am-tab-bar .am-tabs-content-wrap {
+    margin-bottom: 0;
+  }
+}
