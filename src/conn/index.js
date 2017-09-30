@@ -33,6 +33,9 @@ axiosInstance.interceptors.response.use(response => {
   }
 }, err => {
   window.$store.dispatch(hideLoading())
+  if (err.code === 'ECONNABORTED') {
+    Toast.fail('网络超时', 1)
+  }
   return Promise.reject(err)
 })
 

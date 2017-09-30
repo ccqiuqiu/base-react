@@ -28,6 +28,7 @@ module.exports = {
   ],
   // add your custom rules here
   'rules': {
+    'spaced-comment': 0,
     // 'space-before-function-paren': 0, //允许方法前名前面不加空格
     'jsx-quotes': 0, // 允许jsx使用双引号
     'arrow-parens': 0, // 允许箭头函数不使用括号

@@ -6,7 +6,7 @@ module.exports = {
         index: path.resolve(__dirname, '../dist/index.html'),
         assetsRoot: path.resolve(__dirname, '../dist'),
         assetsSubDirectory: 'static',
-        assetsPublicPath: '/',
+        assetsPublicPath: '',
         // disable by default for clients should not
         // get your source code from sourceMap.
         // feel free to turn it on when you need sourceMap
