@@ -93,12 +93,12 @@ npm run build  #发布
 - 有些看起来意义好像不大的代码都是为后期扩展做准备
 
 # 其他项目
-- base-react 本项目
-- base-vue 一个vue项目框架
-- base-api 一个基于koa3的后台api项目
-- f.list 一个包含待办、备忘、密码本功能的android项目
-- f.time 一个包含闹钟、提醒、进度条的android项目
-- f.money 一个包含流水、借贷、图表统计的多账户、多用户记账的android项目
+- [base-react](https://github.com/ccqiuqiu/base-react) 一个react项目框架 
+- [base-vue](https://github.com/ccqiuqiu/base-vue) 一个vue项目框架 
+- [base-api](https://github.com/ccqiuqiu/base-api) 一个基于koa3的后台api项目
+- [F.List](https://github.com/ccqiuqiu/F.List) 一个包含待办、备忘、密码本功能的android项目
+- [F.Money](https://github.com/ccqiuqiu/F.Money) 一个包含闹钟、提醒、进度条的android项目
+- [F.Time](https://github.com/ccqiuqiu/F.Time) 一个包含流水、借贷、图表统计的多账户、多用户记账的android项目
 
 # 计划
 - 一个基于react + mbox的项目框架
