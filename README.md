@@ -1,10 +1,13 @@
 这是一个适用于移动端的react基础项目，项目封装了目前开发一个移动端项目需要的主流技术和功能。使用高度模块化的目录结构和代码组织，可极大的提升开发效率。
 
-![](https://img.shields.io/badge/weibo-@EyreFree-red.svg)
+![](https://img.shields.io/badge/react-15.6.2-60dafb.svg)
+![](https://img.shields.io/badge/redux-3.7.0-red.svg)
+![](https://img.shields.io/badge/reacrRouter-4.2.2-blue.svg)
+![](https://img.shields.io/badge/reduxSaga-0.15.4-4183c4.svg)
 
 # 主要技术栈
-- react 15.6.2
-- react-router 4
+- react
+- react-router
 - redux
 - immutable
 - redux-saga
