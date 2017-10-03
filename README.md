@@ -6,7 +6,7 @@
 ![](https://img.shields.io/badge/reduxSaga-0.15.4-4183c4.svg)
 
 
-[demo](http://ccqiuqiu.win/demo/base-react/#/todo)
+[预览](http://ccqiuqiu.win/demo/base-react/#/todo)
 
 # 主要技术栈
 - react
@@ -19,8 +19,8 @@
 - ant-mobile2
 - webpack3
 
-# 需要环境
-node.js > 6.10
+# 需要环境˚
+node.js > 6.10˚
 
 # 命令
 ```
