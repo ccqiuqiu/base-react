@@ -32,7 +32,7 @@ class TodoList extends Component {
   render () {
     return (
       <div className="TodoList">
-        {this.props.todos.map((todo, i) => <TodoItem key={i} todo={todo} i={i} clickItem={this.clickItem} delItem={this.delItem} />)}
+        {this.props.todos && this.props.todos.map((todo, i) => <TodoItem key={i} todo={todo} i={i} clickItem={this.clickItem} delItem={this.delItem} />)}
       </div>
     )
   }

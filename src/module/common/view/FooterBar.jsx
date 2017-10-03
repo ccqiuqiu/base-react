@@ -21,7 +21,6 @@ export default class FooterBar extends Component {
     const footerBar = this.props.data
     return (
       <div>
-        {/*<Icon2 type='sss' size="md" />*/}
         <TabBar
           unselectedTintColor="#949494"
           tintColor="#33A3F4"
