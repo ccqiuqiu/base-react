@@ -19,7 +19,7 @@
 - ant-mobile2
 - webpack3
 
-# 需要环境˚
+# 需要环境
 node.js > 6.10˚
 
 # 命令
@@ -28,7 +28,7 @@ npm run dev    #开发
 npm run build  #发布
 ```
 
-#目录结构和说明
+# 目录结构和说明
 
 ```
 ├─ build                              # webpack打包配置项目录
