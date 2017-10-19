@@ -20,7 +20,7 @@
 - webpack3
 
 # 需要环境
-node.js > 6.10˚
+node.js > 6.10
 
 # 命令
 ```
