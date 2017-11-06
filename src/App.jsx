@@ -35,7 +35,7 @@ class App extends React.Component {
     return <div className='App' data-flex="dir:top box:justify">
       <Header data={this.props.header} />
       <HashRouter>
-        <div className="content" data-flex-box="1">
+        <div className="content">
           <Switch>
             {routes.map((route, i) => (<RouteWithSubRoutes key={i} {...route} />))}
           </Switch>

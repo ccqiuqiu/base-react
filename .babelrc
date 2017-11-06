@@ -8,7 +8,7 @@
     "plugins": ["transform-runtime", "transform-decorators-legacy", ["import", { "libraryName": "antd-mobile", "style": "css"}]],
     "env": {
         "production": {
-//            "presets": ["react-optimize"] // 使用这个后build后出错
+//       "presets": ["react-optimize"] // 使用这个后build后出错
         },
         "development": {
             "plugins": ["react-hot-loader/babel"]

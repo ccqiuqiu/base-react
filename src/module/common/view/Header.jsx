@@ -14,9 +14,7 @@ export default class Header extends Component {
     data: PropTypes.object
   }
 
-  search = () => {
-    console.log('此处控制台若报错(e.target.className.startsWith is not a function)是ant-mobile的bug，等官方修复')
-  }
+  search = () => {}
   render () {
     return (
       <div className="Header">
